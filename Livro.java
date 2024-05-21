@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.*;
 import java.util.Collections;
 public class Livro {
-	// Atributos privados da classe Livro
-	private String titulo;
-	private String isbn;
+    // Atributos privados da classe Livro
+    private String titulo;
+    private String isbn;
     private String autor;
     private int anoPublicacao;
     private boolean disponivel;
