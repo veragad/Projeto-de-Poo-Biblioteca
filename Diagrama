@@ -1,0 +1,47 @@
+//Diagrama
+  Livro
+- titulo: String
+ - autor: String
+ - anoPublicacao: int
++  cadastrarLivro()
+ +  editarLivro()
+ +  excluirLivro()
+ +  visualizarLivro()
+ +  listarLivros()
+
+Emprestimo
+-  dataDevolucao: Date   
+-  usuario: Usuario
+ -  livro: Livro
+ -  dataEmprestimo: Date
++  cadastrarEmprestimos()
+ +  editarEmprestimo()
+ +  excluirEmprestimo()
+ +  visualizaEmprestimo()
+ +  listarEmprestimos()
++ calcularDataDevolucao()
+
+Usuario
+-  nome: String
+-  cpf: String
+-  senha: int 
+-  limiteDeEmprestimos: int
++  cadastrarUsuario()
++  editarUsuario ()
++  excluirUsuario ()
++  visualizarUsuario ()
++  listarUsuarios()
+
+
+Bibliotecario
+- nome: string
+- nome: string
+- id: inteiro
++  cadastrarBibliotecario()
++  excluirBibliotecario()
++  visualizarBibliotecario()
++ editarBibliotecario()
++  editarBibliotecario()
++  excluirBibliotecario()
++  visualizarBibliotecario()
++  listarBibliotecarios()
