@@ -4,8 +4,8 @@ import java.io.*;
 import java.time.LocalDate;
 import java.util.*;
 public class Emprestimo {
-	//Atributos 
-	private Usuario usuario;
+    //Atributos 
+    private Usuario usuario;
     private Livro livro;
     private Bibliotecario bibliotecario;
     private LocalDate dataEmprestimo;
