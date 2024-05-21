@@ -294,4 +294,4 @@ public class Usuario {
 	                ", limiteDeEmprestimos=" + limiteDeEmprestimos +
 	                '}';
 	    }
-	}
+}
