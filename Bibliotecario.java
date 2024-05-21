@@ -4,8 +4,8 @@ import java.io.*;
 import java.util.*;
 import java.util.Scanner;
 public class Bibliotecario {
-	// Atributos privados da classe Bibliotecario
-	private String nome;
+    // Atributos privados da classe Bibliotecario
+    private String nome;
     private String login;
     private String senha;
     
